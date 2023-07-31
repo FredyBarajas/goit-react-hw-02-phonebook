@@ -15,6 +15,7 @@ export const List = styled.ul`
 
 export const ListItem = styled.li`
   width: 160px;
+  height: 100px;
   box-shadow: 5px 5px 5px #00000040;
   padding: 10px;
   border-radius: 10px;
@@ -22,6 +23,7 @@ export const ListItem = styled.li`
   display: flex;
   flex-direction: column;
   position: relative;
+  justify-content: space-around;
 `;
 
 export const ListName = styled.p`
